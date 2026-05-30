@@ -280,8 +280,8 @@ table {
 }
 
 .middle form fieldset div input {
-  width: 200px;
-  height: 30px;
+  width: 250px;
+  height: 25px;
   border-radius: 4px;
   border: 1px #E5E7EB solid;
   outline: none;
@@ -300,4 +300,32 @@ table {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 600;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bottom button {
+  background-color: #596d48;
+  color: white;
+  width: 230px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.bottom p {
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
 }

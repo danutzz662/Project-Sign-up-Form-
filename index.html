@@ -34,29 +34,29 @@
           <fieldset>
             <div>
               <label for="fname">FIRST NAME</label>
-              <input type="text" name="fname" id="fname">
+              <input type="text" name="fname" id="fname" required pattern="[a-zA-Z]">
             </div>
             <div>
               <label for="email">EMAIL</label>
-              <input type="email" name="email" id="email">
+              <input type="email" name="email" id="email" required>
             </div>
             <div>
               <label for="pswd">PASSWORD</label>
-              <input type="password" name="pswd" id="pswd">
+              <input type="password" name="pswd" id="pswd" required minlength="8">
             </div>
           </fieldset>
           <fieldset>
             <div>
               <label for="lname">LAST NAME</label>
-              <input type="text" name="lname" id="lname">
+              <input type="text" name="lname" id="lname" required pattern="[a-zA-Z]">
             </div>
             <div>
               <label for="number">PHONE NUMBER</label>
-              <input type="tel" name="number" id="number">
+              <input type="tel" name="number" id="number" required minlength="10" maxlength="10">
             </div>
             <div>
               <label for="pswd2">CONFIRM PASSWORD</label>
-              <input type="password" name="pswd2" id="pswd2">
+              <input type="password" name="pswd2" id="pswd2" required minlength="8">
             </div>
           </fieldset>
         </form>
