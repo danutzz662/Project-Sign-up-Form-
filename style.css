@@ -317,6 +317,7 @@ table {
   font-size: 18px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
+  border: none;
 }
 
 .bottom p {
